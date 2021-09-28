@@ -58,4 +58,15 @@ const students = [
   },
 ];
 
-const studentsWithIds = students.map()
+const studentsWithIds = students.map(student => [student.name, student.id]);
+
+// function logNameId(arr) {
+//   results = []
+
+//   for (let student of arr) {
+//     results.push([student.name, student.id]);
+//   }
+//   return results;
+// }
+
+console.log(studentsWithIds);
